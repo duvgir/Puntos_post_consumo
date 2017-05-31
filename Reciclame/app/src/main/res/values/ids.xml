@@ -1,4 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <item name="action_settings" type="id">1</item>
+    <item name="categoria" type="id" />
+    <item name="direccion" type="id" />
 </resources>

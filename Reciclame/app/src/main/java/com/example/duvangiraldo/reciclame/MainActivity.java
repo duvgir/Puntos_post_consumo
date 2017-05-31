@@ -13,6 +13,9 @@ public class MainActivity extends AppCompatActivity {
 
 
 
+
+    //BasedeDatos BD=new BasedeDatos(getApplicationContext());
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -21,11 +24,16 @@ public class MainActivity extends AppCompatActivity {
 
         Button boton_sig = (Button) findViewById(R.id.boton_sig);
 
+
+
         boton_sig.setOnClickListener(new View.OnClickListener() {
             @Override public void onClick(View v) {
-                Intent intent = new Intent (v.getContext(), Mostrar_puntos.class  );
+                Intent intent = new Intent (v.getContext(),Mostrar_puntos.class );
                 startActivityForResult(intent, 0); }
         });
+
+
+
 
 
 
